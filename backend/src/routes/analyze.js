@@ -5,7 +5,7 @@ import {
   analyzeJWT,
   analyzeEnv,
   health
-} from "../controllers/analyze";
+} from "../controllers/analyze.js";
 
 const router = express.Router();
 
