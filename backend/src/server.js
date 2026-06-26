@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
-const express=require('express');
-const cors=require('cors');
+import express from 'express';
+import cors from 'cors';
 import analyzeRouter from "./routes/analyze.js";
 
 const app = express();
